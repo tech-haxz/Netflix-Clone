@@ -1,0 +1,429 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,500;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 710px;
+    background-position: center center;
+    background-size: max(1800px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .darkBox {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: max(720px, 80vh);
+    width: 100%;
+    background-color: black;
+    opacity: 0.64;
+}
+
+.main nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 80vw;
+    padding: 20px;
+    position: relative;
+    z-index: 1000;
+}
+
+.right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.right #lang {
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    background-color: rgb(26, 24, 24);
+    padding: 4px 25px;
+    border: 0px solid whitesmoke;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 1px 1px white inset;
+            box-shadow: 0 0 1px 1px white inset;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: calc(100% - 100px);
+    max-width: 80vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    position: relative;
+    gap: 23px;
+    z-index: 10;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sep {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.heroFields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
+}
+
+.heroFields input {
+    padding: 15px 3rem 15px 1rem;
+    color: white;
+    border: 0.7px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.huge-btn {
+    padding: 7px 15px;
+    font-size: x-large;
+}
+
+.sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.sec div> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sec div> :nth-child(2) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sec-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    
+}
+
+.sec .sec-img video {
+    position: absolute;
+    top: 85px;
+    right: 80px;
+    z-index: -1;
+}
+
+.sec3 .sec-img video {
+    width: 390px;
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    /* z-index: 22; */
+}
+
+.faq {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 70px;
+    gap: 10px;
+}
+
+.faq h2 {
+    font-size: 48px;
+}
+
+.faq .ques{
+    height: 12vh;
+    width: 70vw ;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2d2d2d;
+    padding: 0 30px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+.lst{
+    margin: 40px 0 20px 0;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.lst-email{
+    margin-bottom: 70px;
+}
+
+footer{
+    padding: 80px;
+}
+
+footer> span{
+    color: white;
+    margin-left: 13%;
+}
+
+.foot{
+    max-width: 70vw;
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    gap: 10px;
+}
+
+.foot a{
+    color: rgb(197, 193, 193);
+    font-family: 'popins';
+    font-weight: 200;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .main nav{
+        max-width: 90vw;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 30px;
+    }
+
+    .sec{
+        text-align: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .sec div> :nth-child(1) {
+        font-size: 32px;
+        font-weight: bolder;
+    }
+
+    .sec div> :nth-child(2) {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .sec img {
+        width: 305px;
+    }
+
+    .sec .sec-img video {
+        width: 210px;
+        top: 50px;
+        left: 50px;
+    }
+    .sec3 .sec-img video {
+        width: 200px;
+        top: 10px;
+        left: 50px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .heroFields {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .foot{
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .lst{
+        text-align: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .foot {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+
+    .heroFields input{
+        padding: 15px 3em 15px 15px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 25px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 12px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 12px;
+    }
+}
+
